@@ -1,0 +1,13 @@
+2024-12-13 23:57:37,448 - INFO - Starting book scraping process
+2024-12-13 23:57:37,662 - INFO - Successfully read 562095 valid book URLs
+2024-12-13 23:57:37,691 - INFO - Processing 562095 new books
+2024-12-13 23:58:41,025 - INFO - Starting book scraping process
+2024-12-13 23:58:41,228 - INFO - Successfully read 562095 valid book URLs
+2024-12-13 23:58:41,250 - INFO - Processing 100 new books
+2024-12-13 23:58:54,635 - INFO - Successfully fetched 100 out of 100 books
+2024-12-13 23:58:54,656 - INFO - Final results saved to output/books_data.json
+2024-12-14 00:01:56,266 - INFO - Starting book scraping process
+2024-12-14 00:01:56,494 - INFO - Successfully read 562095 valid book URLs
+2024-12-14 00:01:56,523 - INFO - Processing 100 new books
+2024-12-14 00:02:10,055 - INFO - Successfully fetched 100 out of 100 books
+2024-12-14 00:02:10,064 - INFO - Final results saved to output/books_data.json
