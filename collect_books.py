@@ -52,7 +52,7 @@ def download_and_extract_urls(sitemap_urls, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         for sitemap_url in sitemap_urls:
             try:
-                response = requests.get(sitemap_url, headers=headers)
+                response = requests.get(sitemap_url, headers=headers, timeout=60)
                 if response.status_code == 200:
                     with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
                         xml_content = gz.read()
