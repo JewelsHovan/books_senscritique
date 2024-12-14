@@ -11,3 +11,283 @@
 2024-12-14 00:01:56,523 - INFO - Processing 100 new books
 2024-12-14 00:02:10,055 - INFO - Successfully fetched 100 out of 100 books
 2024-12-14 00:02:10,064 - INFO - Final results saved to output/books_data.json
+2024-12-14 00:25:00,812 - INFO - Loaded 100 proxies
+2024-12-14 00:25:00,812 - INFO - Starting book scraping process
+2024-12-14 00:25:01,028 - INFO - Successfully read 562095 valid book URLs
+2024-12-14 00:25:01,061 - INFO - Processing 1000 new books
+2024-12-14 00:25:02,265 - WARNING - HTTP 403 for book ID 3360 using proxy 156.233.74.231:3128
+2024-12-14 00:25:02,265 - WARNING - Marked proxy as failed: 156.233.74.231:3128
+2024-12-14 00:25:05,419 - WARNING - HTTP 403 for book ID 740 using proxy 156.233.86.109:3128
+2024-12-14 00:25:05,420 - WARNING - Marked proxy as failed: 156.233.86.109:3128
+2024-12-14 00:25:06,852 - WARNING - HTTP 403 for book ID 2338 using proxy 156.233.73.32:3128
+2024-12-14 00:25:06,853 - WARNING - Marked proxy as failed: 156.233.73.32:3128
+2024-12-14 00:25:09,778 - WARNING - HTTP 403 for book ID 2354 using proxy 156.233.92.28:3128
+2024-12-14 00:25:09,778 - WARNING - Marked proxy as failed: 156.233.92.28:3128
+2024-12-14 00:25:11,246 - WARNING - HTTP 403 for book ID 3425 using proxy 156.233.91.112:3128
+2024-12-14 00:25:11,247 - WARNING - Marked proxy as failed: 156.233.91.112:3128
+2024-12-14 00:25:14,590 - WARNING - HTTP 403 for book ID 3447 using proxy 156.233.88.187:3128
+2024-12-14 00:25:14,590 - WARNING - Marked proxy as failed: 156.233.88.187:3128
+2024-12-14 00:25:17,627 - WARNING - HTTP 403 for book ID 2403 using proxy 156.233.74.231:3128
+2024-12-14 00:25:20,324 - WARNING - HTTP 403 for book ID 3493 using proxy 156.233.86.109:3128
+2024-12-14 00:25:22,226 - WARNING - HTTP 403 for book ID 908 using proxy 156.233.73.32:3128
+2024-12-14 00:25:25,522 - WARNING - HTTP 403 for book ID 922 using proxy 156.233.90.77:3128
+2024-12-14 00:25:25,522 - WARNING - Marked proxy as failed: 156.233.90.77:3128
+2024-12-14 00:25:26,512 - WARNING - HTTP 403 for book ID 2458 using proxy 156.233.92.28:3128
+2024-12-14 00:25:35,707 - WARNING - HTTP 403 for book ID 2477 using proxy 156.233.91.112:3128
+2024-12-14 00:25:48,733 - ERROR - Error fetching book 2406 with proxy 104.207.38.100:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/dans_la_vallee_des_larmes/2406/details.json?universe=book&slug=dans_la_vallee_des_larmes&id=2406
+2024-12-14 00:25:48,734 - WARNING - Marked proxy as failed: 104.207.38.100:3128
+2024-12-14 00:25:49,737 - ERROR - Error fetching book 2417 with proxy 156.228.115.41:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/la_melancolie_des_sirenes_par_trente_metres_de_fond/2417/details.json?universe=book&slug=la_melancolie_des_sirenes_par_trente_metres_de_fond&id=2417
+2024-12-14 00:25:49,737 - WARNING - Marked proxy as failed: 156.228.115.41:3128
+2024-12-14 00:25:52,733 - ERROR - Error fetching book 3493 with proxy 104.207.38.100:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/autour_des_diaboliques_de_jules_barbey_d_aurevilly/3493/details.json?universe=book&slug=autour_des_diaboliques_de_jules_barbey_d_aurevilly&id=3493
+2024-12-14 00:25:52,735 - ERROR - Error fetching book 2435 with proxy 156.228.117.186:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/evenements/2435/details.json?universe=book&slug=evenements&id=2435
+2024-12-14 00:25:52,735 - WARNING - Marked proxy as failed: 156.228.117.186:3128
+2024-12-14 00:25:54,733 - ERROR - Error fetching book 920 with proxy 156.228.107.117:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/les_fils_d_abraham/920/details.json?universe=book&slug=les_fils_d_abraham&id=920
+2024-12-14 00:25:54,734 - WARNING - Marked proxy as failed: 156.228.107.117:3128
+2024-12-14 00:25:54,735 - ERROR - Error fetching book 2452 with proxy 156.228.112.183:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/fenetres_sur_un_nouvel_age_2006_2007/2452/details.json?universe=book&slug=fenetres_sur_un_nouvel_age_2006_2007&id=2452
+2024-12-14 00:25:54,735 - WARNING - Marked proxy as failed: 156.228.112.183:3128
+2024-12-14 00:25:57,732 - ERROR - Error fetching book 2463 with proxy 104.207.62.104:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/edgar_morin_l_indiscipline/2463/details.json?universe=book&slug=edgar_morin_l_indiscipline&id=2463
+2024-12-14 00:25:57,732 - WARNING - Marked proxy as failed: 104.207.62.104:3128
+2024-12-14 00:25:58,733 - ERROR - Error fetching book 2465 with proxy 156.253.173.254:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/je_suis_trop_gros/2465/details.json?universe=book&slug=je_suis_trop_gros&id=2465
+2024-12-14 00:25:58,733 - WARNING - Marked proxy as failed: 156.253.173.254:3128
+2024-12-14 00:26:01,734 - ERROR - Error fetching book 947 with proxy 156.253.169.88:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/la_malediction_d_halloween/947/details.json?universe=book&slug=la_malediction_d_halloween&id=947
+2024-12-14 00:26:01,734 - WARNING - Marked proxy as failed: 156.253.169.88:3128
+2024-12-14 00:26:07,734 - ERROR - Error fetching book 2477 with proxy 104.207.38.182:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/fonds_de_pension_piege_a_cons/2477/details.json?universe=book&slug=fonds_de_pension_piege_a_cons&id=2477
+2024-12-14 00:26:07,734 - WARNING - Marked proxy as failed: 104.207.38.182:3128
+2024-12-14 00:38:32,096 - INFO - Loaded 100 proxies
+2024-12-14 00:38:32,096 - INFO - Starting book scraping process
+2024-12-14 00:38:32,334 - INFO - Successfully read 562095 valid book URLs
+2024-12-14 00:38:32,362 - INFO - Processing 1000 new books
+2024-12-14 00:38:33,632 - WARNING - HTTP 403 for book ID 1267 using proxy 156.233.74.231:3128
+2024-12-14 00:38:33,632 - WARNING - Marked proxy as failed: 156.233.74.231:3128
+2024-12-14 00:38:36,881 - WARNING - HTTP 403 for book ID 642 using proxy 156.233.86.109:3128
+2024-12-14 00:38:36,882 - WARNING - Marked proxy as failed: 156.233.86.109:3128
+2024-12-14 00:38:38,367 - WARNING - HTTP 403 for book ID 1772 using proxy 156.233.73.32:3128
+2024-12-14 00:38:38,368 - WARNING - Marked proxy as failed: 156.233.73.32:3128
+2024-12-14 00:38:41,269 - WARNING - HTTP 403 for book ID 653 using proxy 156.233.92.28:3128
+2024-12-14 00:38:41,270 - WARNING - Marked proxy as failed: 156.233.92.28:3128
+2024-12-14 00:38:43,039 - WARNING - HTTP 403 for book ID 1794 using proxy 156.233.91.112:3128
+2024-12-14 00:38:43,040 - WARNING - Marked proxy as failed: 156.233.91.112:3128
+2024-12-14 00:38:46,722 - WARNING - HTTP 403 for book ID 1818 using proxy 156.233.88.187:3128
+2024-12-14 00:38:46,723 - WARNING - Marked proxy as failed: 156.233.88.187:3128
+2024-12-14 00:38:49,941 - WARNING - HTTP 403 for book ID 1336 using proxy 156.233.74.231:3128
+2024-12-14 00:38:53,505 - WARNING - HTTP 403 for book ID 2967 using proxy 156.233.86.109:3128
+2024-12-14 00:38:57,485 - WARNING - HTTP 403 for book ID 1364 using proxy 156.233.73.32:3128
+2024-12-14 00:39:20,741 - ERROR - Error fetching book 692 with proxy 104.207.38.100:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/hommes_et_problemes_du_jazz/692/details.json?universe=book&slug=hommes_et_problemes_du_jazz&id=692
+2024-12-14 00:39:20,743 - WARNING - Marked proxy as failed: 104.207.38.100:3128
+2024-12-14 00:39:21,745 - ERROR - Error fetching book 1857 with proxy 156.228.115.41:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/le_guide_des_meilleurs_vins_de_france/1857/details.json?universe=book&slug=le_guide_des_meilleurs_vins_de_france&id=1857
+2024-12-14 00:39:21,745 - WARNING - Marked proxy as failed: 156.228.115.41:3128
+2024-12-14 00:39:21,746 - ERROR - Error fetching book 1855 with proxy 156.228.109.82:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/emily_et_alligator/1855/details.json?universe=book&slug=emily_et_alligator&id=1855
+2024-12-14 00:39:21,746 - WARNING - Marked proxy as failed: 156.228.109.82:3128
+2024-12-14 00:39:22,741 - ERROR - Error fetching book 1859 with proxy 156.228.107.41:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/vers_une_redefinition_du_musee/1859/details.json?universe=book&slug=vers_une_redefinition_du_musee&id=1859
+2024-12-14 00:39:22,741 - WARNING - Marked proxy as failed: 156.228.107.41:3128
+2024-12-14 00:39:23,741 - ERROR - Error fetching book 1863 with proxy 104.207.36.68:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/shobogenzo_volume_3/1863/details.json?universe=book&slug=shobogenzo_volume_3&id=1863
+2024-12-14 00:39:23,742 - WARNING - Marked proxy as failed: 104.207.36.68:3128
+2024-12-14 00:39:24,742 - ERROR - Error fetching book 2978 with proxy 156.228.116.223:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/fashion_mamans/2978/details.json?universe=book&slug=fashion_mamans&id=2978
+2024-12-14 00:39:24,742 - WARNING - Marked proxy as failed: 156.228.116.223:3128
+2024-12-14 00:39:24,744 - ERROR - Error fetching book 1359 with proxy 104.207.34.188:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/a_death_in_oxford/1359/details.json?universe=book&slug=a_death_in_oxford&id=1359
+2024-12-14 00:39:24,745 - WARNING - Marked proxy as failed: 104.207.34.188:3128
+2024-12-14 00:39:25,742 - ERROR - Error fetching book 2967 with proxy 104.207.38.100:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/trump_never_give_up/2967/details.json?universe=book&slug=trump_never_give_up&id=2967
+2024-12-14 00:39:26,741 - ERROR - Error fetching book 2985 with proxy 104.207.38.15:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/de_la_bienveillance_a_la_bientraitance/2985/details.json?universe=book&slug=de_la_bienveillance_a_la_bientraitance&id=2985
+2024-12-14 00:39:26,741 - WARNING - Marked proxy as failed: 104.207.38.15:3128
+2024-12-14 00:39:28,114 - WARNING - HTTP 403 for book ID 1375 using proxy 156.233.90.77:3128
+2024-12-14 00:39:28,114 - WARNING - Marked proxy as failed: 156.233.90.77:3128
+2024-12-14 00:39:35,741 - ERROR - Error fetching book 2990 with proxy 104.207.61.112:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/cinema_radical/2990/details.json?universe=book&slug=cinema_radical&id=2990
+2024-12-14 00:39:35,742 - WARNING - Marked proxy as failed: 104.207.61.112:3128
+2024-12-14 00:39:37,715 - WARNING - HTTP 403 for book ID 1904 using proxy 156.233.91.112:3128
+2024-12-14 00:39:53,741 - ERROR - Error fetching book 692 with proxy 156.228.117.123:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/hommes_et_problemes_du_jazz/692/details.json?universe=book&slug=hommes_et_problemes_du_jazz&id=692
+2024-12-14 00:39:53,743 - WARNING - Marked proxy as failed: 156.228.117.123:3128
+2024-12-14 00:39:54,741 - ERROR - Error fetching book 1857 with proxy 156.253.171.129:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/le_guide_des_meilleurs_vins_de_france/1857/details.json?universe=book&slug=le_guide_des_meilleurs_vins_de_france&id=1857
+2024-12-14 00:39:54,742 - WARNING - Marked proxy as failed: 156.253.171.129:3128
+2024-12-14 00:39:54,743 - ERROR - Error fetching book 1855 with proxy 104.207.38.182:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/emily_et_alligator/1855/details.json?universe=book&slug=emily_et_alligator&id=1855
+2024-12-14 00:39:54,743 - WARNING - Marked proxy as failed: 104.207.38.182:3128
+2024-12-14 00:39:57,741 - ERROR - Error fetching book 1359 with proxy 104.207.58.174:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/a_death_in_oxford/1359/details.json?universe=book&slug=a_death_in_oxford&id=1359
+2024-12-14 00:39:57,742 - WARNING - Marked proxy as failed: 104.207.58.174:3128
+2024-12-14 00:39:59,740 - ERROR - Error fetching book 1896 with proxy 156.253.169.33:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/les_oublies_de_la_republique/1896/details.json?universe=book&slug=les_oublies_de_la_republique&id=1896
+2024-12-14 00:39:59,741 - WARNING - Marked proxy as failed: 156.253.169.33:3128
+2024-12-14 00:40:00,740 - ERROR - Error fetching book 1897 with proxy 156.253.173.254:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/le_doudou_de_bebe/1897/details.json?universe=book&slug=le_doudou_de_bebe&id=1897
+2024-12-14 00:40:00,741 - WARNING - Marked proxy as failed: 156.253.173.254:3128
+2024-12-14 00:40:00,742 - ERROR - Error fetching book 3008 with proxy 104.207.62.104:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/meme_pas_male/3008/details.json?universe=book&slug=meme_pas_male&id=3008
+2024-12-14 00:40:00,742 - WARNING - Marked proxy as failed: 104.207.62.104:3128
+2024-12-14 00:40:02,565 - WARNING - HTTP 403 for book ID 1936 using proxy 156.233.88.187:3128
+2024-12-14 00:40:03,741 - ERROR - Error fetching book 1394 with proxy 156.253.169.88:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/anticancer/1394/details.json?universe=book&slug=anticancer&id=1394
+2024-12-14 00:40:03,741 - WARNING - Marked proxy as failed: 156.253.169.88:3128
+2024-12-14 00:40:07,377 - WARNING - HTTP 403 for book ID 3059 using proxy 156.233.74.231:3128
+2024-12-14 00:40:09,741 - ERROR - Error fetching book 1400 with proxy 156.228.112.82:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/double_jeu/1400/details.json?universe=book&slug=double_jeu&id=1400
+2024-12-14 00:40:09,742 - WARNING - Marked proxy as failed: 156.228.112.82:3128
+2024-12-14 00:40:10,352 - WARNING - HTTP 403 for book ID 1495 using proxy 156.233.86.109:3128
+2024-12-14 00:40:12,012 - WARNING - HTTP 403 for book ID 1988 using proxy 156.233.73.32:3128
+2024-12-14 00:40:14,430 - WARNING - HTTP 403 for book ID 2018 using proxy 156.233.90.77:3128
+2024-12-14 00:40:14,727 - WARNING - HTTP 403 for book ID 2022 using proxy 156.233.92.28:3128
+2024-12-14 00:40:16,617 - WARNING - HTTP 403 for book ID 397 using proxy 156.233.91.112:3128
+2024-12-14 00:40:20,719 - WARNING - HTTP 403 for book ID 411 using proxy 156.233.88.187:3128
+2024-12-14 00:40:49,741 - ERROR - Error fetching book 410 with proxy 156.228.108.72:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/priere_pour_dawn/410/details.json?universe=book&slug=priere_pour_dawn&id=410
+2024-12-14 00:40:49,742 - WARNING - Marked proxy as failed: 156.228.108.72:3128
+2024-12-14 00:40:49,743 - ERROR - Error fetching book 2041 with proxy 156.253.173.121:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/le_petit_dico_d_aqui/2041/details.json?universe=book&slug=le_petit_dico_d_aqui&id=2041
+2024-12-14 00:40:49,744 - WARNING - Marked proxy as failed: 156.253.173.121:3128
+2024-12-14 00:40:49,744 - ERROR - Error fetching book 1565 with proxy 104.167.26.196:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/l_enfant_surdoue/1565/details.json?universe=book&slug=l_enfant_surdoue&id=1565
+2024-12-14 00:40:49,745 - WARNING - Marked proxy as failed: 104.167.26.196:3128
+2024-12-14 00:40:49,745 - ERROR - Error fetching book 1571 with proxy 156.228.111.19:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/ma_riviera/1571/details.json?universe=book&slug=ma_riviera&id=1571
+2024-12-14 00:40:49,746 - WARNING - Marked proxy as failed: 156.228.111.19:3128
+2024-12-14 00:40:50,742 - ERROR - Error fetching book 3164 with proxy 156.253.173.210:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/cuisiner_la_mer/3164/details.json?universe=book&slug=cuisiner_la_mer&id=3164
+2024-12-14 00:40:50,742 - WARNING - Marked proxy as failed: 156.253.173.210:3128
+2024-12-14 00:40:51,743 - ERROR - Error fetching book 3167 with proxy 104.207.33.167:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/le_temps_au_cinema/3167/details.json?universe=book&slug=le_temps_au_cinema&id=3167
+2024-12-14 00:40:51,743 - WARNING - Marked proxy as failed: 104.207.33.167:3128
+2024-12-14 00:40:52,743 - ERROR - Error fetching book 2047 with proxy 156.228.109.49:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/la_bastoche/2047/details.json?universe=book&slug=la_bastoche&id=2047
+2024-12-14 00:40:52,743 - WARNING - Marked proxy as failed: 156.228.109.49:3128
+2024-12-14 00:40:53,742 - ERROR - Error fetching book 414 with proxy 104.207.32.131:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/les_corbeaux_entre_eux/414/details.json?universe=book&slug=les_corbeaux_entre_eux&id=414
+2024-12-14 00:40:53,742 - WARNING - Marked proxy as failed: 104.207.32.131:3128
+2024-12-14 00:41:01,742 - ERROR - Error fetching book 2059 with proxy 156.228.118.198:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/le_journal_d_elsa_linux/2059/details.json?universe=book&slug=le_journal_d_elsa_linux&id=2059
+2024-12-14 00:41:01,742 - WARNING - Marked proxy as failed: 156.228.118.198:3128
+2024-12-14 00:41:01,743 - ERROR - Error fetching book 1586 with proxy 156.228.111.155:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/prevenir_la_delinquance_des_la_petite_enfance/1586/details.json?universe=book&slug=prevenir_la_delinquance_des_la_petite_enfance&id=1586
+2024-12-14 00:41:01,744 - WARNING - Marked proxy as failed: 156.228.111.155:3128
+2024-12-14 00:41:03,205 - WARNING - HTTP 403 for book ID 2073 using proxy 156.233.86.109:3128
+2024-12-14 00:41:22,742 - ERROR - Error fetching book 2041 with proxy 104.167.25.136:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/le_petit_dico_d_aqui/2041/details.json?universe=book&slug=le_petit_dico_d_aqui&id=2041
+2024-12-14 00:41:22,743 - WARNING - Marked proxy as failed: 104.167.25.136:3128
+2024-12-14 00:41:23,742 - ERROR - Error fetching book 431 with proxy 156.228.117.123:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/encore_une_nuit_de_merde_dans_cette_ville_pourrie/431/details.json?universe=book&slug=encore_une_nuit_de_merde_dans_cette_ville_pourrie&id=431
+2024-12-14 00:41:23,743 - ERROR - Error fetching book 1598 with proxy 156.253.171.129:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/la_peur/1598/details.json?universe=book&slug=la_peur&id=1598
+2024-12-14 00:41:23,744 - ERROR - Error fetching book 2066 with proxy 104.207.38.182:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/l_ile_des_brumes/2066/details.json?universe=book&slug=l_ile_des_brumes&id=2066
+2024-12-14 00:41:24,742 - ERROR - Error fetching book 436 with proxy 156.228.109.82:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/david_guetta/436/details.json?universe=book&slug=david_guetta&id=436
+2024-12-14 00:41:25,813 - WARNING - HTTP 403 for book ID 444 using proxy 156.233.73.32:3128
+2024-12-14 00:41:28,742 - ERROR - Error fetching book 2069 with proxy 156.228.107.41:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/plus_de_poisson_a_la_criee_menaces_sur_les_reserves_mondiales/2069/details.json?universe=book&slug=plus_de_poisson_a_la_criee_menaces_sur_les_reserves_mondiales&id=2069
+2024-12-14 00:41:29,418 - WARNING - HTTP 403 for book ID 3229 using proxy 156.233.90.77:3128
+2024-12-14 00:41:30,473 - WARNING - HTTP 403 for book ID 2105 using proxy 156.233.92.28:3128
+2024-12-14 00:41:32,730 - WARNING - HTTP 403 for book ID 467 using proxy 156.233.91.112:3128
+2024-12-14 00:41:37,543 - WARNING - HTTP 403 for book ID 482 using proxy 156.233.88.187:3128
+2024-12-14 00:41:37,743 - ERROR - Error fetching book 2083 with proxy 104.207.34.188:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/le_roman/2083/details.json?universe=book&slug=le_roman&id=2083
+2024-12-14 00:41:40,520 - WARNING - HTTP 403 for book ID 3267 using proxy 156.233.74.231:3128
+2024-12-14 00:41:43,692 - WARNING - HTTP 403 for book ID 2186 using proxy 156.233.86.109:3128
+2024-12-14 00:41:45,638 - WARNING - HTTP 403 for book ID 527 using proxy 156.233.73.32:3128
+2024-12-14 00:41:47,871 - WARNING - HTTP 403 for book ID 3298 using proxy 156.233.90.77:3128
+2024-12-14 00:41:49,417 - WARNING - HTTP 403 for book ID 2216 using proxy 156.233.92.28:3128
+2024-12-14 00:41:50,990 - WARNING - HTTP 403 for book ID 561 using proxy 156.233.91.112:3128
+2024-12-14 00:42:15,743 - ERROR - Error fetching book 2193 with proxy 104.207.34.28:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/platero_y_yo/2193/details.json?universe=book&slug=platero_y_yo&id=2193
+2024-12-14 00:42:15,743 - WARNING - Marked proxy as failed: 104.207.34.28:3128
+2024-12-14 00:42:16,743 - ERROR - Error fetching book 1695 with proxy 156.228.107.117:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/quartier_sebastopol/1695/details.json?universe=book&slug=quartier_sebastopol&id=1695
+2024-12-14 00:42:16,744 - WARNING - Marked proxy as failed: 156.228.107.117:3128
+2024-12-14 00:42:19,744 - ERROR - Error fetching book 2222 with proxy 156.253.173.254:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/mission_basilic_honor_harrington_tome_1/2222/details.json?universe=book&slug=mission_basilic_honor_harrington_tome_1&id=2222
+2024-12-14 00:42:21,743 - ERROR - Error fetching book 3303 with proxy 156.253.169.88:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/un_moyen_age_grec/3303/details.json?universe=book&slug=un_moyen_age_grec&id=3303
+2024-12-14 00:42:21,744 - ERROR - Error fetching book 2223 with proxy 156.228.113.23:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/oeuf/2223/details.json?universe=book&slug=oeuf&id=2223
+2024-12-14 00:42:21,744 - WARNING - Marked proxy as failed: 156.228.113.23:3128
+2024-12-14 00:42:22,743 - ERROR - Error fetching book 3306 with proxy 156.253.171.135:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/la_sociologie_des_organisations/3306/details.json?universe=book&slug=la_sociologie_des_organisations&id=3306
+2024-12-14 00:42:22,744 - WARNING - Marked proxy as failed: 156.253.171.135:3128
+2024-12-14 00:42:23,151 - WARNING - HTTP 403 for book ID 590 using proxy 156.233.88.187:3128
+2024-12-14 00:42:24,743 - ERROR - Error fetching book 3307 with proxy 156.228.110.123:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/le_chemin_vers_l_amour/3307/details.json?universe=book&slug=le_chemin_vers_l_amour&id=3307
+2024-12-14 00:42:24,744 - WARNING - Marked proxy as failed: 156.228.110.123:3128
+2024-12-14 00:42:26,743 - ERROR - Error fetching book 3309 with proxy 156.253.169.41:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/leo/3309/details.json?universe=book&slug=leo&id=3309
+2024-12-14 00:42:26,744 - WARNING - Marked proxy as failed: 156.253.169.41:3128
+2024-12-14 00:42:26,744 - ERROR - Error fetching book 2237 with proxy 104.207.33.204:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/les_petites_filles_du_soleil/2237/details.json?universe=book&slug=les_petites_filles_du_soleil&id=2237
+2024-12-14 00:42:26,744 - WARNING - Marked proxy as failed: 104.207.33.204:3128
+2024-12-14 00:42:29,072 - WARNING - HTTP 403 for book ID 3327 using proxy 156.233.74.231:3128
+2024-12-14 00:42:32,743 - ERROR - Error fetching book 2245 with proxy 156.253.173.121:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/paradoxes_de_l_irrationalite/2245/details.json?universe=book&slug=paradoxes_de_l_irrationalite&id=2245
+2024-12-14 00:42:43,744 - WARNING - HTTP 403 for book ID 2278 using proxy 156.233.86.109:3128
+2024-12-14 00:42:50,743 - ERROR - Error fetching book 1724 with proxy 156.228.111.19:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/l_alchimie_et_son_code_symbolique/1724/details.json?universe=book&slug=l_alchimie_et_son_code_symbolique&id=1724
+2024-12-14 00:42:55,744 - ERROR - Error fetching book 593 with proxy 104.207.32.131:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/la_mie_du_di/593/details.json?universe=book&slug=la_mie_du_di&id=593
+2024-12-14 00:42:55,746 - ERROR - Error fetching book 1731 with proxy 104.167.30.69:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/contrats_speciaux/1731/details.json?universe=book&slug=contrats_speciaux&id=1731
+2024-12-14 00:42:55,746 - WARNING - Marked proxy as failed: 104.167.30.69:3128
+2024-12-14 00:42:59,743 - ERROR - Error fetching book 2264 with proxy 104.207.38.100:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/le_sang_noir_chasse_et_mythe_du_sauvage_en_europe/2264/details.json?universe=book&slug=le_sang_noir_chasse_et_mythe_du_sauvage_en_europe&id=2264
+2024-12-14 00:43:00,743 - ERROR - Error fetching book 1737 with proxy 156.253.171.129:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/apres_l_effondrement/1737/details.json?universe=book&slug=apres_l_effondrement&id=1737
+2024-12-14 00:43:01,101 - WARNING - HTTP 403 for book ID 710 using proxy 156.233.73.32:3128
+2024-12-14 00:43:01,744 - ERROR - Error fetching book 608 with proxy 156.228.109.82:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/les_heritieres_d_emma_harte/608/details.json?universe=book&slug=les_heritieres_d_emma_harte&id=608
+2024-12-14 00:43:01,745 - ERROR - Error fetching book 2267 with proxy 104.207.38.182:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/evangiles_du_crime/2267/details.json?universe=book&slug=evangiles_du_crime&id=2267
+2024-12-14 00:43:05,243 - WARNING - HTTP 403 for book ID 3366 using proxy 156.233.90.77:3128
+2024-12-14 00:43:05,742 - ERROR - Error fetching book 609 with proxy 104.207.58.174:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/la_bande_bonny_lafont/609/details.json?universe=book&slug=la_bande_bonny_lafont&id=609
+2024-12-14 00:43:05,984 - WARNING - HTTP 403 for book ID 3372 using proxy 156.233.92.28:3128
+2024-12-14 00:43:08,127 - WARNING - HTTP 403 for book ID 742 using proxy 156.233.91.112:3128
+2024-12-14 00:43:08,744 - ERROR - Error fetching book 2277 with proxy 156.228.107.41:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/les_chemins_de_la_sagesse_contes/2277/details.json?universe=book&slug=les_chemins_de_la_sagesse_contes&id=2277
+2024-12-14 00:43:12,263 - WARNING - HTTP 403 for book ID 3399 using proxy 156.233.88.187:3128
+2024-12-14 00:43:15,706 - WARNING - HTTP 403 for book ID 2363 using proxy 156.233.74.231:3128
+2024-12-14 00:43:18,713 - WARNING - HTTP 403 for book ID 869 using proxy 156.233.86.109:3128
+2024-12-14 00:43:20,321 - WARNING - HTTP 403 for book ID 3450 using proxy 156.233.73.32:3128
+2024-12-14 00:43:22,790 - WARNING - HTTP 403 for book ID 2389 using proxy 156.233.90.77:3128
+2024-12-14 00:43:24,061 - WARNING - HTTP 403 for book ID 884 using proxy 156.233.92.28:3128
+2024-12-14 00:43:26,532 - WARNING - HTTP 403 for book ID 53 using proxy 156.233.91.112:3128
+2024-12-14 00:43:51,744 - ERROR - Error fetching book 879 with proxy 104.207.34.28:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/les_jeux_et_les_joies_de_l_eau/879/details.json?universe=book&slug=les_jeux_et_les_joies_de_l_eau&id=879
+2024-12-14 00:43:52,744 - ERROR - Error fetching book 32 with proxy 156.228.112.183:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/chateau_en_suede/32/details.json?universe=book&slug=chateau_en_suede&id=32
+2024-12-14 00:43:52,744 - WARNING - Marked proxy as failed: 156.228.112.183:3128
+2024-12-14 00:43:54,744 - ERROR - Error fetching book 3477 with proxy 104.207.62.104:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/par_le_trou_de_la_serrure/3477/details.json?universe=book&slug=par_le_trou_de_la_serrure&id=3477
+2024-12-14 00:43:55,744 - ERROR - Error fetching book 2406 with proxy 156.228.113.23:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/dans_la_vallee_des_larmes/2406/details.json?universe=book&slug=dans_la_vallee_des_larmes&id=2406
+2024-12-14 00:43:56,746 - ERROR - Error fetching book 2409 with proxy 156.228.112.82:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/le_gang_de_la_clef_a_molette/2409/details.json?universe=book&slug=le_gang_de_la_clef_a_molette&id=2409
+2024-12-14 00:43:57,744 - ERROR - Error fetching book 59 with proxy 104.167.31.13:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/tristesse_de_la_balance_et_autres_signes/59/details.json?universe=book&slug=tristesse_de_la_balance_et_autres_signes&id=59
+2024-12-14 00:43:57,744 - WARNING - Marked proxy as failed: 104.167.31.13:3128
+2024-12-14 00:43:58,744 - ERROR - Error fetching book 53 with proxy 156.228.112.183:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/blackwork/53/details.json?universe=book&slug=blackwork&id=53
+2024-12-14 00:43:58,745 - ERROR - Error fetching book 2410 with proxy 156.253.175.253:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/idolatrisme/2410/details.json?universe=book&slug=idolatrisme&id=2410
+2024-12-14 00:43:58,745 - WARNING - Marked proxy as failed: 156.253.175.253:3128
+2024-12-14 00:43:59,744 - ERROR - Error fetching book 73 with proxy 104.167.30.145:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/rose/73/details.json?universe=book&slug=rose&id=73
+2024-12-14 00:43:59,745 - WARNING - Marked proxy as failed: 104.167.30.145:3128
+2024-12-14 00:44:10,745 - ERROR - Error fetching book 2425 with proxy 104.207.33.204:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/la_maison_de_l_inceste/2425/details.json?universe=book&slug=la_maison_de_l_inceste&id=2425
+2024-12-14 00:44:25,745 - ERROR - Error fetching book 897 with proxy 104.167.26.196:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/les_echos_du_passe/897/details.json?universe=book&slug=les_echos_du_passe&id=897
+2024-12-14 00:44:26,745 - ERROR - Error fetching book 2426 with proxy 156.253.173.121:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/jarmilka/2426/details.json?universe=book&slug=jarmilka&id=2426
+2024-12-14 00:44:28,748 - ERROR - Error fetching book 898 with proxy 156.228.111.19:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/histoire_des_grands_courants_de_la_pensee_politique/898/details.json?universe=book&slug=histoire_des_grands_courants_de_la_pensee_politique&id=898
+2024-12-14 00:44:29,745 - ERROR - Error fetching book 3495 with proxy 156.253.173.210:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/troisieme_livre_des_maccabees/3495/details.json?universe=book&slug=troisieme_livre_des_maccabees&id=3495
+2024-12-14 00:44:31,745 - ERROR - Error fetching book 3497 with proxy 104.207.33.167:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/zoe_et_theo_au_magasin/3497/details.json?universe=book&slug=zoe_et_theo_au_magasin&id=3497
+2024-12-14 00:44:32,745 - ERROR - Error fetching book 2431 with proxy 156.228.109.49:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/amnesie/2431/details.json?universe=book&slug=amnesie&id=2431
+2024-12-14 00:44:32,746 - ERROR - Error fetching book 53 with proxy 104.167.26.157:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/blackwork/53/details.json?universe=book&slug=blackwork&id=53
+2024-12-14 00:44:32,746 - WARNING - Marked proxy as failed: 104.167.26.157:3128
+2024-12-14 00:44:33,743 - ERROR - Error fetching book 97 with proxy 104.207.32.131:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/bergerac_monbazillac/97/details.json?universe=book&slug=bergerac_monbazillac&id=97
+2024-12-14 00:44:36,086 - WARNING - HTTP 403 for book ID 936 using proxy 156.233.86.109:3128
+2024-12-14 00:44:38,016 - WARNING - HTTP 403 for book ID 2477 using proxy 156.233.73.32:3128
+2024-12-14 00:44:39,861 - WARNING - HTTP 403 for book ID 2493 using proxy 156.233.90.77:3128
+2024-12-14 00:44:40,487 - WARNING - HTTP 403 for book ID 2496 using proxy 156.233.92.28:3128
+2024-12-14 00:44:42,063 - WARNING - HTTP 403 for book ID 149 using proxy 156.233.91.112:3128
+2024-12-14 00:44:45,552 - WARNING - HTTP 403 for book ID 163 using proxy 156.233.88.187:3128
+2024-12-14 00:44:48,247 - WARNING - HTTP 403 for book ID 1012 using proxy 156.233.74.231:3128
+2024-12-14 00:44:52,749 - WARNING - HTTP 403 for book ID 2564 using proxy 156.233.86.109:3128
+2024-12-14 00:45:16,752 - ERROR - Error fetching book 165 with proxy 156.228.109.49:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/la_petite_fille_qui_voulait_voir_le_desert/165/details.json?universe=book&slug=la_petite_fille_qui_voulait_voir_le_desert&id=165
+2024-12-14 00:45:19,746 - ERROR - Error fetching book 182 with proxy 156.228.117.123:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/les_manieres_de_table/182/details.json?universe=book&slug=les_manieres_de_table&id=182
+2024-12-14 00:45:19,747 - ERROR - Error fetching book 1013 with proxy 104.207.38.100:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/de_poussiere_et_de_sang/1013/details.json?universe=book&slug=de_poussiere_et_de_sang&id=1013
+2024-12-14 00:45:19,748 - ERROR - Error fetching book 2555 with proxy 104.207.38.182:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/l_espagne_de_charles_ii_et_la_france_1665_1700/2555/details.json?universe=book&slug=l_espagne_de_charles_ii_et_la_france_1665_1700&id=2555
+2024-12-14 00:45:20,745 - ERROR - Error fetching book 1025 with proxy 156.228.109.82:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/histoires_naturelles/1025/details.json?universe=book&slug=histoires_naturelles&id=1025
+2024-12-14 00:45:21,746 - ERROR - Error fetching book 1030 with proxy 156.228.107.41:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/petite_vie_de_jean_baptiste/1030/details.json?universe=book&slug=petite_vie_de_jean_baptiste&id=1030
+2024-12-14 00:45:23,747 - ERROR - Error fetching book 1051 with proxy 104.207.36.68:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/un_film_d_amour/1051/details.json?universe=book&slug=un_film_d_amour&id=1051
+2024-12-14 00:45:24,744 - ERROR - Error fetching book 211 with proxy 104.207.34.188:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/intouchables/211/details.json?universe=book&slug=intouchables&id=211
+2024-12-14 00:45:24,745 - ERROR - Error fetching book 2566 with proxy 156.228.116.223:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/les_fantomes_fantomes_de_gaunt_cycle_premier_la_fondation_tome_2/2566/details.json?universe=book&slug=les_fantomes_fantomes_de_gaunt_cycle_premier_la_fondation_tome_2&id=2566
+2024-12-14 00:45:29,311 - WARNING - HTTP 403 for book ID 1089 using proxy 156.233.91.112:3128
+2024-12-14 00:45:30,746 - ERROR - Error fetching book 2573 with proxy 104.207.38.15:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/appareil_de_la_terre/2573/details.json?universe=book&slug=appareil_de_la_terre&id=2573
+2024-12-14 00:45:50,750 - ERROR - Error fetching book 1065 with proxy 156.228.117.186:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/le_passe_devant_soi/1065/details.json?universe=book&slug=le_passe_devant_soi&id=1065
+2024-12-14 00:45:50,750 - WARNING - Marked proxy as failed: 156.228.117.186:3128
+2024-12-14 00:45:53,746 - ERROR - Error fetching book 232 with proxy 104.207.34.28:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/peinture_et_modernite/232/details.json?universe=book&slug=peinture_et_modernite&id=232
+2024-12-14 00:45:58,746 - ERROR - Error fetching book 255 with proxy 156.253.169.88:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/l_art_au_xviieme_siecle/255/details.json?universe=book&slug=l_art_au_xviieme_siecle&id=255
+2024-12-14 00:45:58,746 - ERROR - Error fetching book 2604 with proxy 156.228.113.23:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/french_vertigo/2604/details.json?universe=book&slug=french_vertigo&id=2604
+2024-12-14 00:45:59,746 - ERROR - Error fetching book 259 with proxy 156.228.112.82:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/d_une_guerre_l_autre/259/details.json?universe=book&slug=d_une_guerre_l_autre&id=259
+2024-12-14 00:45:59,882 - WARNING - HTTP 403 for book ID 1118 using proxy 156.233.88.187:3128
+2024-12-14 00:46:02,746 - ERROR - Error fetching book 2612 with proxy 156.253.171.135:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/la_brocante_nakano/2612/details.json?universe=book&slug=la_brocante_nakano&id=2612
+2024-12-14 00:46:02,747 - ERROR - Error fetching book 261 with proxy 104.167.30.145:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/maudit_soit_andreas_werckmeister/261/details.json?universe=book&slug=maudit_soit_andreas_werckmeister&id=261
+2024-12-14 00:46:04,746 - ERROR - Error fetching book 263 with proxy 156.228.110.123:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/nuit_theatre/263/details.json?universe=book&slug=nuit_theatre&id=263
+2024-12-14 00:46:07,746 - ERROR - Error fetching book 266 with proxy 104.207.33.204:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/la_chute_de_la_maison_usher/266/details.json?universe=book&slug=la_chute_de_la_maison_usher&id=266
+2024-12-14 00:46:08,744 - WARNING - HTTP 403 for book ID 313 using proxy 156.233.86.109:3128
+2024-12-14 00:46:10,235 - WARNING - HTTP 403 for book ID 1191 using proxy 156.233.73.32:3128
+2024-12-14 00:46:12,837 - WARNING - HTTP 403 for book ID 1209 using proxy 156.233.92.28:3128
+2024-12-14 00:46:13,505 - WARNING - HTTP 403 for book ID 1207 using proxy 156.233.90.77:3128
+2024-12-14 00:46:15,090 - WARNING - HTTP 403 for book ID 2763 using proxy 156.233.91.112:3128
+2024-12-14 00:46:19,942 - WARNING - HTTP 403 for book ID 1253 using proxy 156.233.88.187:3128
+2024-12-14 00:46:28,975 - WARNING - HTTP 403 for book ID 1302 using proxy 156.233.90.77:3128
+2024-12-14 00:46:46,754 - ERROR - Error fetching book 1229 with proxy 104.167.30.145:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/monnaie_banque_et_marches_financiers/1229/details.json?universe=book&slug=monnaie_banque_et_marches_financiers&id=1229
+2024-12-14 00:46:48,747 - ERROR - Error fetching book 1237 with proxy 156.253.173.121:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/introduction_a_la_vie_devote/1237/details.json?universe=book&slug=introduction_a_la_vie_devote&id=1237
+2024-12-14 00:46:48,748 - ERROR - Error fetching book 364 with proxy 104.167.26.196:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/l_eden_cinema/364/details.json?universe=book&slug=l_eden_cinema&id=364
+2024-12-14 00:46:48,749 - ERROR - Error fetching book 2784 with proxy 156.253.169.41:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/voyage_vers_la_fiction/2784/details.json?universe=book&slug=voyage_vers_la_fiction&id=2784
+2024-12-14 00:46:49,747 - ERROR - Error fetching book 373 with proxy 156.253.173.210:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/litterature_chinoise_moderne/373/details.json?universe=book&slug=litterature_chinoise_moderne&id=373
+2024-12-14 00:46:52,745 - ERROR - Error fetching book 1261 with proxy 156.228.109.49:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/avez_vous_lu_paul_bourget/1261/details.json?universe=book&slug=avez_vous_lu_paul_bourget&id=1261
+2024-12-14 00:46:53,515 - WARNING - HTTP 403 for book ID 1379 using proxy 156.233.92.28:3128
+2024-12-14 00:46:53,747 - ERROR - Error fetching book 377 with proxy 104.207.32.131:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/vide_qui_songe_la_trilogie_du_vide_tome_1/377/details.json?universe=book&slug=vide_qui_songe_la_trilogie_du_vide_tome_1&id=377
+2024-12-14 00:46:58,747 - ERROR - Error fetching book 2848 with proxy 104.207.61.112:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/les_sept_principes_de_l_execution/2848/details.json?universe=book&slug=les_sept_principes_de_l_execution&id=2848
+2024-12-14 00:46:59,454 - WARNING - HTTP 403 for book ID 3177 using proxy 156.233.74.231:3128
+2024-12-14 00:47:01,747 - ERROR - Error fetching book 1309 with proxy 104.167.26.157:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/l_automne_a_cuba/1309/details.json?universe=book&slug=l_automne_a_cuba&id=1309
+2024-12-14 00:47:27,747 - ERROR - Error fetching book 1520 with proxy 104.207.61.112:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/fritz_lang_en_amerique/1520/details.json?universe=book&slug=fritz_lang_en_amerique&id=1520
+2024-12-14 00:47:27,749 - ERROR - Error fetching book 1506 with proxy 104.207.38.15:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/sauver_ispahan/1506/details.json?universe=book&slug=sauver_ispahan&id=1506
+2024-12-14 00:47:28,745 - ERROR - Error fetching book 2031 with proxy 156.228.112.82:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/noel_chez_ernest_et_celestine/2031/details.json?universe=book&slug=noel_chez_ernest_et_celestine&id=2031
+2024-12-14 00:47:28,746 - ERROR - Error fetching book 3158 with proxy 156.253.169.41:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/le_dejeuner_du_coroner/3158/details.json?universe=book&slug=le_dejeuner_du_coroner&id=3158
+2024-12-14 00:47:28,746 - ERROR - Error fetching book 3146 with proxy 156.253.169.88:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/traite_des_objets_musicaux/3146/details.json?universe=book&slug=traite_des_objets_musicaux&id=3146
+2024-12-14 00:47:32,747 - ERROR - Error fetching book 3188 with proxy 156.228.115.41:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/uma_la_petite_deesse/3188/details.json?universe=book&slug=uma_la_petite_deesse&id=3188
+2024-12-14 00:47:33,747 - ERROR - Error fetching book 441 with proxy 104.207.36.68:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/formules_de_taylor_developpements_limites/441/details.json?universe=book&slug=formules_de_taylor_developpements_limites&id=441
+2024-12-14 00:47:40,368 - WARNING - HTTP 403 for book ID 92 using proxy 156.233.88.187:3128
+2024-12-14 00:47:41,234 - WARNING - HTTP 403 for book ID 3512 using proxy 156.233.74.231:3128
+2024-12-14 00:47:43,530 - WARNING - HTTP 403 for book ID 224 using proxy 156.233.73.32:3128
+2024-12-14 00:47:44,045 - WARNING - HTTP 403 for book ID 243 using proxy 156.233.90.77:3128
+2024-12-14 00:47:44,117 - WARNING - HTTP 403 for book ID 245 using proxy 156.233.92.28:3128
+2024-12-14 00:47:52,779 - WARNING - HTTP 403 for book ID 2677 using proxy 156.233.74.231:3128
+2024-12-14 00:48:16,749 - ERROR - Error fetching book 2745 with proxy 156.228.112.183:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/tarzan_seigneur_de_la_jungle/2745/details.json?universe=book&slug=tarzan_seigneur_de_la_jungle&id=2745
+2024-12-14 00:48:16,752 - ERROR - Error fetching book 2727 with proxy 156.228.117.186:3128: Connection timeout to host https://www.senscritique.com/_next/data/NZC4gJK0x7_I2hUZze_-h/fr/universe/histoire_des_gauchers/2727/details.json?universe=book&slug=histoire_des_gauchers&id=2727
+2024-12-14 00:48:19,172 - INFO - Checkpoint 1 saved: checkpoints/checkpoint_1_20241214_004819.json
+2024-12-14 00:48:19,173 - INFO - Successfully fetched 999 out of 1000 books
+2024-12-14 00:48:19,199 - INFO - Saved 999 books to output/books_20241214_1.json
+2024-12-14 00:48:19,199 - INFO - Results split and saved in output directory

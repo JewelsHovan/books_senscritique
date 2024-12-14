@@ -16,6 +16,7 @@ from datetime import datetime
 from typing import List, Dict
 from tqdm.asyncio import tqdm
 from config import NUM_WORKERS, DELAY_TIME, BOOKS_URLS_PATH, BOOKS_DATA_PATH, APIConfig
+from proxy_manager import ProxyManager
 
 # Configure logging
 logging.basicConfig(
@@ -35,6 +36,7 @@ CHECKPOINT_DIR.mkdir(exist_ok=True)
 BOOKS_PER_FILE = 10000
 OUTPUT_DIR = Path("output")
 OUTPUT_DIR.mkdir(exist_ok=True)
+
 
 def save_checkpoint(results: List[Dict], checkpoint_num: int) -> None:
     """Save intermediate results to a checkpoint file."""
@@ -87,14 +89,22 @@ def read_book_urls(filename: str) -> List[Dict[str, str]]:
         logger.error(f"Error: File {filename} not found")
         return []
 
-async def fetch_book_details(session: aiohttp.ClientSession, 
-                           book_id: int,
-                           book_name: str,
-                           config: APIConfig,
-                           semaphore: asyncio.Semaphore,
-                           retry_count: int = 3) -> Dict:
-    """Fetch book details using Next.js API with retries."""
+async def fetch_book_details(
+    session: aiohttp.ClientSession,
+    book_id: int,
+    book_name: str,
+    config: APIConfig,
+    semaphore: asyncio.Semaphore,
+    proxy_manager: ProxyManager,
+    retry_count: int = 3
+) -> Dict:
+    """Fetch book details using Next.js API with retries and proxy rotation."""
     for attempt in range(retry_count):
+        proxy = proxy_manager.get_next_proxy()
+        if not proxy:
+            logger.error("No working proxies available")
+            return None
+
         async with semaphore:
             try:
                 await asyncio.sleep(DELAY_TIME)
@@ -103,7 +113,7 @@ async def fetch_book_details(session: aiohttp.ClientSession,
                 headers = dict(config.HEADERS)
                 headers['x-nextjs-data'] = '1'
                 
-                async with session.get(url, headers=headers) as response:
+                async with session.get(url, headers=headers, proxy=f"http://{proxy}") as response:
                     if response.status == 200:
                         data = await response.json()
                         book_details = data.get("pageProps", {}).get("__APOLLO_STATE__", {}).get(f"Product:{book_id}")
@@ -151,12 +161,14 @@ async def fetch_book_details(session: aiohttp.ClientSession,
                         logger.warning(f"No product data found for book ID {book_id}")
                         return None
                     
-                    logger.warning(f"HTTP {response.status} for book ID {book_id}")
+                    logger.warning(f"HTTP {response.status} for book ID {book_id} using proxy {proxy}")
+                    proxy_manager.mark_proxy_failed(proxy)
                     if attempt < retry_count - 1:
                         await asyncio.sleep(DELAY_TIME * (attempt + 1))
                     
             except Exception as e:
-                logger.error(f"Error fetching book {book_id}: {str(e)}")
+                logger.error(f"Error fetching book {book_id} with proxy {proxy}: {str(e)}")
+                proxy_manager.mark_proxy_failed(proxy)
                 if attempt < retry_count - 1:
                     await asyncio.sleep(DELAY_TIME * (attempt + 1))
                 
@@ -179,13 +191,14 @@ def save_split_results(results: List[Dict], base_filename: str) -> None:
 async def main():
     """Main execution function."""
     config = APIConfig()
+    proxy_manager = ProxyManager("proxies/http_proxies.txt")
     logger.info("Starting book scraping process")
 
     # Load the latest checkpoint if it exists
     existing_results, processed_ids = load_latest_checkpoint()
     
     # Read books from the URL file
-    books = read_book_urls(BOOKS_URLS_PATH)[:100]
+    books = read_book_urls(BOOKS_URLS_PATH)[:1000]
     
     if not books:
         logger.error("No valid books found in the input file")
@@ -199,7 +212,14 @@ async def main():
     async with aiohttp.ClientSession() as session:
         semaphore = asyncio.Semaphore(NUM_WORKERS)
         tasks = [
-            fetch_book_details(session, int(book['id']), book['name'], config, semaphore)
+            fetch_book_details(
+                session, 
+                int(book['id']), 
+                book['name'], 
+                config, 
+                semaphore,
+                proxy_manager
+            )
             for book in books_to_process
         ]
         
