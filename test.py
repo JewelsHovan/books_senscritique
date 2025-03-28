@@ -1,6 +1,7 @@
 import requests
 import json
 from typing import Dict, List, Optional
+from security import safe_requests
 
 def scrape_book_details(book_data: List[Dict[str, str]]) -> List[Optional[Dict]]:
     """
@@ -36,7 +37,7 @@ def scrape_book_details(book_data: List[Dict[str, str]]) -> List[Optional[Dict]]
         book_name = book['name']
         url = f"{base_url}{book_name}/{book_id}/details.json?universe=book&slug={book_name}&id={book_id}"
         try:
-            response = requests.get(url, headers=headers, timeout=60)
+            response = safe_requests.get(url, headers=headers, timeout=60)
             response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
 
             data = response.json()
