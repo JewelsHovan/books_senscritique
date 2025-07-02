@@ -7,9 +7,9 @@ and saves them to an output file.
 """
 
 import xml.etree.ElementTree as ET
-import requests
 import gzip
 import io
+from security import safe_requests
 
 def extract_livre_sitemaps(xml_file):
     """
@@ -52,7 +52,7 @@ def download_and_extract_urls(sitemap_urls, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         for sitemap_url in sitemap_urls:
             try:
-                response = requests.get(sitemap_url, headers=headers, timeout=60)
+                response = safe_requests.get(sitemap_url, headers=headers, timeout=60)
                 if response.status_code == 200:
                     with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
                         xml_content = gz.read()
