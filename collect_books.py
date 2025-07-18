@@ -5,11 +5,10 @@ It parses an XML file to find sitemap URLs related to books,
 downloads the sitemaps (which are often gzipped), extracts the book URLs,
 and saves them to an output file.
 """
-
-import xml.etree.ElementTree as ET
 import requests
 import gzip
 import io
+import defusedxml.ElementTree
 
 def extract_livre_sitemaps(xml_file):
     """
@@ -21,7 +20,7 @@ def extract_livre_sitemaps(xml_file):
     Returns:
         list: A list of sitemap URLs containing '/products/livre/'.
     """
-    tree = ET.parse(xml_file)
+    tree = defusedxml.ElementTree.parse(xml_file)
     root = tree.getroot()
     
     namespace = {'ns': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
@@ -57,7 +56,7 @@ def download_and_extract_urls(sitemap_urls, output_file):
                     with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
                         xml_content = gz.read()
                     
-                    root = ET.fromstring(xml_content)
+                    root = defusedxml.ElementTree.fromstring(xml_content)
                     namespace = {'ns': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
                     
                     for url in root.findall('.//ns:url/ns:loc', namespace):
